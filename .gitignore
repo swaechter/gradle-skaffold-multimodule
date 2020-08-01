@@ -1,0 +1,11 @@
+# Maven build system
+target/
+
+# Gradle build system
+.gradle/
+build/
+out/
+
+# JetBrains IntelliJ IDEA
+.idea/
+*.iml

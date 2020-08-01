@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2beta5
+kind: Config
+build:
+  artifacts:
+  - image: skaffold-jib-1
+    context: .
+    jib:
+      project: project1
+  - image: skaffold-jib-2
+    context: .
+    jib:
+      project: project2
